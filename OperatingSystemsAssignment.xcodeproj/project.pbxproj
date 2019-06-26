@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4749D47322C4084B0002293A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4749D47222C4084B0002293A /* main.c */; };
+		4749D47B22C4087F0002293A /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4749D47A22C4087F0002293A /* Tree.c */; };
+		4749D47E22C408B60002293A /* Visitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 4749D47D22C408B60002293A /* Visitor.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		4749D46F22C4084B0002293A /* OperatingSystemsAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OperatingSystemsAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		4749D47222C4084B0002293A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4749D47922C4087F0002293A /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		4749D47A22C4087F0002293A /* Tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
+		4749D47C22C408B60002293A /* Visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		4749D47D22C408B60002293A /* Visitor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Visitor.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4749D47222C4084B0002293A /* main.c */,
+				4749D47922C4087F0002293A /* Tree.h */,
+				4749D47A22C4087F0002293A /* Tree.c */,
+				4749D47C22C408B60002293A /* Visitor.h */,
+				4749D47D22C408B60002293A /* Visitor.c */,
 			);
 			path = OperatingSystemsAssignment;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4749D47322C4084B0002293A /* main.c in Sources */,
+				4749D47B22C4087F0002293A /* Tree.c in Sources */,
+				4749D47E22C408B60002293A /* Visitor.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
